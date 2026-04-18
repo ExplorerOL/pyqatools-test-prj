@@ -1,0 +1,21 @@
+[project]
+name = "pyqatools-test-prj"
+version = "1.0.0"
+description = "Automated testing project using PyQATools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "allure-pytest>=2.15.3",
+    "assertpy>=1.1",
+    "pytest>=9.0.2",
+    "pytest-check>=2.7.2",
+    "pytest-rerunfailures>=16.1",
+    "pytest-xdist>=3.8.0",
+    "tenacity>=8.0",
+    "pytest-assert-that",
+    "pyqatools @ https://github.com/ExplorerOL/pyqatools/releases/download/1.0.0.dev/pyqatools-1.0.0-py3-none-any.whl",
+]
+
+[tool.uv.sources]
+pytest-assert-that = { git = "https://github.com/ExplorerOL/pytest-assert-that.git", rev = "feature/pytest-assert-that-1.0.0-dev" }
+
