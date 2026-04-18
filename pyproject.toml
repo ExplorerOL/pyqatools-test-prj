@@ -13,7 +13,7 @@ dependencies = [
     "pytest-xdist>=3.8.0",
     "tenacity>=8.0",
     "pytest-assert-that",
-    "pyqatools @ https://github.com/ExplorerOL/pyqatools/releases/download/1.0.0.dev/pyqatools-1.0.0-py3-none-any.whl",
+    "pyqatools @ https://github.com/ExplorerOL/pyqatools/releases/download/v1.0.0/pyqatools-1.0.0-py3-none-any.whl",
 ]
 
 [tool.uv.sources]

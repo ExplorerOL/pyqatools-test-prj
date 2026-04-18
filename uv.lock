@@ -112,9 +112,9 @@ wheels = [
 [[package]]
 name = "pyqatools"
 version = "1.0.0"
-source = { url = "https://github.com/ExplorerOL/pyqatools/releases/download/1.0.0.dev/pyqatools-1.0.0-py3-none-any.whl" }
+source = { url = "https://github.com/ExplorerOL/pyqatools/releases/download/v1.0.0/pyqatools-1.0.0-py3-none-any.whl" }
 wheels = [
-    { url = "https://github.com/ExplorerOL/pyqatools/releases/download/1.0.0.dev/pyqatools-1.0.0-py3-none-any.whl", hash = "sha256:c1f40c5a18b0b39dedae537a86c6b3e44f22332f170c9bca25942b8cb778c0bf" },
+    { url = "https://github.com/ExplorerOL/pyqatools/releases/download/v1.0.0/pyqatools-1.0.0-py3-none-any.whl", hash = "sha256:3063d0bb23f0103aa8be6c2971b2761338c7121deccebf728353d1eb5721a663" },
 ]
 
 [[package]]
@@ -137,7 +137,7 @@ dependencies = [
 requires-dist = [
     { name = "allure-pytest", specifier = ">=2.15.3" },
     { name = "assertpy", specifier = ">=1.1" },
-    { name = "pyqatools", url = "https://github.com/ExplorerOL/pyqatools/releases/download/1.0.0.dev/pyqatools-1.0.0-py3-none-any.whl" },
+    { name = "pyqatools", url = "https://github.com/ExplorerOL/pyqatools/releases/download/v1.0.0/pyqatools-1.0.0-py3-none-any.whl" },
     { name = "pytest", specifier = ">=9.0.2" },
     { name = "pytest-assert-that", git = "https://github.com/ExplorerOL/pytest-assert-that.git?rev=feature%2Fpytest-assert-that-1.0.0-dev" },
     { name = "pytest-check", specifier = ">=2.7.2" },
